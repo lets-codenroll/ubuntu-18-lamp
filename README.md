@@ -21,10 +21,12 @@ What you should do after running those scripts?
 =======
 1. Open 'dir.conf' file:
 sudo nano /etc/apache2/mods-enabled/dir.conf
-2. Replace these line:
+2. Replace these line: 
 DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
-With this line:
+
+With this line: 
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+
 ----
 3. Enter MySQL:
 sudo mysql
